@@ -18,3 +18,8 @@ build.dart --machine --changed=prepareHerokuDeployment.sh --changed=prepareHerok
 
 build.dart finished [170 ms]
 
+---
+build.dart --machine --changed=prepareHerokuDeployment.sh --changed=prepareHerokuDeployment.sh~
+
+build.dart finished [112 ms]
+
