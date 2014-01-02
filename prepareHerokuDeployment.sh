@@ -3,9 +3,6 @@
 get-dart-dependencies
 test-dart-sources
 
-
-
-
 function get-dart-dependencies {
    echo "get-dart-dependencies"
    pub get
