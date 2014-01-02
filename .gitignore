@@ -1,0 +1,5 @@
+packages
+out
+.buildlog
+*~
+*.swp
