@@ -203,3 +203,8 @@ build.dart --machine --changed=Procfile
 
 build.dart finished [118 ms]
 
+---
+build.dart --machine --removed=web/server_dev.dart --removed=web/server_heroku.dart
+
+build.dart finished [161 ms]
+
