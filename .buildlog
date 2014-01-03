@@ -98,3 +98,43 @@ build.dart --machine --changed=Procfile
 
 build.dart finished [135 ms]
 
+---
+build.dart --machine --changed=web/server.dart
+
+build.dart finished [130 ms]
+
+---
+build.dart --machine --changed=web/rsp/myView.rsp.dart
+
+build.dart finished [117 ms]
+
+---
+build.dart --machine --changed=Procfile --changed=lib/model.dart --changed=prepareHerokuDeployment.sh --changed...
+
+build.dart finished [1114 ms]
+
+---
+build.dart --machine --changed=web/rsp/myView.rsp.dart
+
+build.dart finished [311 ms]
+
+---
+build.dart --machine --changed=lib/server.dart --changed=lib/server_dev.dart --changed=lib/server_heroku.dart -...
+
+build.dart finished [136 ms]
+
+---
+build.dart --machine --changed=lib/server_dev.dart --changed=lib/server_heroku.dart
+
+build.dart finished [132 ms]
+
+---
+build.dart --machine --changed=Procfile
+
+build.dart finished [126 ms]
+
+---
+build.dart --machine --changed=pubspec.yaml
+
+build.dart finished [128 ms]
+

@@ -1,6 +1,6 @@
 name: dart_app_deploy_to_cloud
 author: gerald reinhart
-description: Show how to deplooy a web application to the cloud
+description: Show how to deploy a web application to the cloud
 environment:
   sdk: '>=1.0.0 <2.0.0'
 dependencies:

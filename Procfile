@@ -1,1 +1,1 @@
-web: ./dart-sdk/bin/dart web/server_heroku.dart
+web: ./dart-sdk/bin/dart lib/server_heroku.dart
