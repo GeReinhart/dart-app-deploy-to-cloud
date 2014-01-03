@@ -233,3 +233,8 @@ build.dart --machine --changed=web/server_heroku.dart
 
 build.dart finished [121 ms]
 
+---
+build.dart --machine --changed=pubspec.lock
+
+build.dart finished [129 ms]
+
