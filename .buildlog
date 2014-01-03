@@ -208,3 +208,28 @@ build.dart --machine --removed=web/server_dev.dart --removed=web/server_heroku.d
 
 build.dart finished [161 ms]
 
+---
+build.dart --machine --changed=web/server_dev.dart
+
+build.dart finished [131 ms]
+
+---
+build.dart --machine --changed=web/server_dev.dart
+
+build.dart finished [118 ms]
+
+---
+build.dart --machine --changed=web/server_dev.dart --removed=web/server_dev.dart
+
+build.dart finished [152 ms]
+
+---
+build.dart --machine --changed=web/server_heroku.dart
+
+build.dart finished [134 ms]
+
+---
+build.dart --machine --changed=web/server_heroku.dart
+
+build.dart finished [121 ms]
+
