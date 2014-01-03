@@ -238,3 +238,28 @@ build.dart --machine --changed=pubspec.lock
 
 build.dart finished [129 ms]
 
+---
+build.dart --machine --changed=web/client/myView.dart.js --changed=web/client/myView.dart.js.deps --changed=web...
+
+build.dart finished [112 ms]
+
+---
+build.dart --machine --changed=web/rsp/myView.rsp.dart
+
+build.dart finished [110 ms]
+
+---
+build.dart --machine --changed=pubspec.yaml
+
+build.dart finished [162 ms]
+
+---
+build.dart --machine --changed=pubspec.yaml
+
+build.dart finished [127 ms]
+
+---
+build.dart --machine --removed=web/client/myView.dart.js --removed=web/client/myView.dart.js.deps --removed=web...
+
+build.dart finished [175 ms]
+

@@ -4,6 +4,7 @@ description: Show how to deploy a web application to the cloud
 environment:
   sdk: '>=1.0.0 <2.0.0'
 dependencies:
+  browser: '0.9.1'
   stream: '1.0.0'
-  http_server: any
-  unittest: any
+  http_server: '0.9.1'
+  unittest: '0.9.2+1'
