@@ -4,9 +4,9 @@ library app_deploy_to_cloud;
 import "dart:io";
 import "dart:async";
 import "package:stream/stream.dart";
-import "../lib/model.dart" ;
+import '../lib/model.dart' ;
 
-part "rsp/myView.rsp.dart";
+part 'rsp/myView.rsp.dart';
 
 
 class MyServer{
@@ -30,7 +30,7 @@ class MyServer{
   }
 
   Future myViewController(HttpConnect connect) {
-    return myView(connect, blogLink: new BlogLink("gereinhartasdartisan.blogspot.com","dart-automatic-deployement-in-the-cloud"));
+    return myView(connect, blogLink: new BlogLink("gereinhartasdartisan.blogspot.fr","2014/01/dart-automatic-deployment-in-cloud.html"));
   }
   
 }

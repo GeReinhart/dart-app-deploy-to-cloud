@@ -13,14 +13,15 @@ Future myView(HttpConnect connect, {blogLink}) { //#2
   response.write("""<!DOCTYPE html>
 <html>
   <head>
-    <title>Automatic deployement</title>
+    <title>Dart automatic deployment in the cloud</title>
   </head>
   <body>
-    <h1>Automatic deployement</h1>
+    <h1>Dart automatic deployment in the cloud</h1>
+    <h2>(GitHub, Drone, Heroku)</h2>
     <p>
       <a id="btn-to-blog" data-link=\""""); //#2
 
-  response.write(Rsp.nnx(blogLink.link)); //#10
+  response.write(Rsp.nnx(blogLink.link)); //#11
 
 
   response.write("""" href="#">See blog article</a>
@@ -30,7 +31,7 @@ Future myView(HttpConnect connect, {blogLink}) { //#2
     <script src="/packages/browser/dart.js"></script>    
   </body>
 </html>
-"""); //#10
+"""); //#11
 
   return new Future.value();
 }
